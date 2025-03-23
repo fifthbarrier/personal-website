@@ -1,14 +1,13 @@
 ---
-import Layout from '../layouts/BlogPost.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
 ---
-
-<Layout
-	title="Resume"
-	description="Lorem ipsum dolor sit amet"
-	pubDate={new Date('March 03 2025')}
-	heroImage=""
->
-	<p>
-		-describe hobbies/etc.
-	</p>
-</Layout>
+<p></p>
+<Header />
+<iframe
+	src="https://archive.org/embed/nudnouil resume"
+	width="600" 
+	height="800"
+	style="border:none;margin:auto;display:block;">
+</iframe>
+<Footer />

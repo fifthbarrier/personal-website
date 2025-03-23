@@ -1,15 +1,14 @@
 ---
-import Layout from '../layouts/BlogPost.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
 ---
 
-<Layout
-	title="Curriculum Vitae"
-	description=""
-	pubDate={new Date('March 1 2025')}
-	heroImage=""
->
-	<iframe
-		src="https://drive.google.com/file/d/15oWRa73ZU-_flG_y0oH1L54hShSBkjof/view"
-		width="600" height="800">
-	</iframe>
-</Layout>
+<Header />
+<p></p>
+<iframe
+	src="https://archive.org/embed/nudnouil_CV"
+	width="600" 
+	height="800"
+	style="border:none;margin:auto;display:block;">
+</iframe>
+<Footer />
