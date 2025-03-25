@@ -1,14 +1,30 @@
----
-import { Icon } from '@astrojs/starlight/components';
----
+<head>
+<script src="https://kit.fontawesome.com/c167dd71c2.js" crossorigin="anonymous"></script>
+</head>
 <footer>
 	<div class="social-links">
 		<a href="https://www.linkedin.com/in/nudnouil/" target="blank">
-			<Icon name="linkedin" color="darkgreen" size="3rem" />
+			<span style="color: #0a66c2;">
+  				<i class="fa-brands fa-linkedin fa-2xl"></i>
+			</span>	
+		</a>
+		&nbsp;
+		<a href="https://scholar.google.com/citations?user=nyTSe78AAAAJ/" >
+			<span style="color: #4285F4;">
+  				<i class="fa-brands fa-google-scholar fa-2xl"></i>
+			</span>	
 		</a>
 		&nbsp;
 		<a href="https://github.com/fifthbarrier/" target="blank">
-			<Icon name="github" color="darkgreen" size="3rem" />
+			<span style="color: #2b3137;">
+  				<i class="fa-brands fa-github fa-2xl"></i>
+			</span>		
+		</a>
+		&nbsp;
+		<a href="https://www.researchgate.net/profile/Ilya-Nudnou/" >
+			<span style="color: #00ccbb;">
+  				<i class="fa-brands fa-researchgate fa-2xl"></i>
+			</span>	
 		</a>
 	</div>
 </footer>
@@ -19,4 +35,5 @@ import { Icon } from '@astrojs/starlight/components';
 		border:none;
 		text-decoration: none;
 	}
+	a { text-decoration: none}
 </style>

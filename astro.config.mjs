@@ -2,6 +2,7 @@
 import { defineConfig } from 'astro/config';
 import mdx from '@astrojs/mdx';
 import sitemap from '@astrojs/sitemap';
+import starlight from '@astrojs/starlight';
 
 // https://astro.build/config
 export default defineConfig({
@@ -11,3 +12,4 @@ export default defineConfig({
 		port: 3000,
 	  },
 });
+
